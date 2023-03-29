@@ -1,0 +1,186 @@
+.title img {
+    width: 100%;
+}
+
+.zone1 {
+    background-color: #ffffff;
+}
+
+.banner {
+    background-color: #f6f6f6;
+    padding: 50px 0;
+}
+
+.banner-center-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.banner-center-title span {
+    font-size: 3rem;
+    position: relative;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #00b3cb;
+}
+
+.banner-center-title span::after {
+    content: "";
+    width: 1000%;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    border-bottom: 5px solid #00b3cb;
+}
+
+.box-img {
+    background-image: url(../img/banner5.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.box-img-gt {
+    background-image: url(../img/banner-gt2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.box-img #img {
+    width: 100%;
+    height: 555px;
+}
+
+.box-banner {}
+
+.banner-text {
+    text-align: justify;
+    line-height: 20px;
+    width: 100%;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img {
+    width: 100%;
+}
+
+.img div {
+    position: relative;
+    z-index: 0;
+}
+
+.img div::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+    background-color: #5ad6e7;
+    top: 30px;
+    left: 40px;
+}
+
+.vision {
+    background: #eeeeee;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.vision-img img {
+    width: 100%;
+}
+
+.box-text {
+    background-color: #00b3cb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+}
+
+.box-text::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 30px solid #00b3cb;
+}
+
+.text-top span {
+    font-weight: bold;
+    position: relative;
+    padding: 10px;
+}
+
+.text-top span::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 2px solid #fff;
+}
+
+.text-bottom {
+    padding: 10px;
+}
+
+.vision-text-content {
+    padding-top: 50px;
+    text-align: justify;
+}
+
+.content {
+    padding: 50px 0;
+}
+
+.content-center-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.content-center-title span {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    color: #00b3cb;
+}
+
+.content-center-title span::after {
+    content: "";
+    width: 1000%;
+    position: absolute;
+    top: 95%;
+    right: 0;
+    border-bottom: 5px solid #00b3cb;
+}
+
+.box-content {
+    text-align: justify;
+}
+
+.img-footer {
+    padding: 50px 0;
+}
+
+.banner1 {
+    background-color: #eeeeee;
+    padding: 50px 0;
+}

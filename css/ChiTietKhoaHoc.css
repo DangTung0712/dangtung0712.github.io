@@ -1,0 +1,156 @@
+.title img {
+    width: 100%;
+}
+
+.content {
+    background-color: #f6f6f6;
+}
+
+.content-center {
+    padding: 20px 0;
+}
+
+.box-content {
+    margin-top: 20px;
+}
+
+.content-center-title {
+    font-size: 2.5rem;
+    padding: 20px 0;
+}
+
+.content-center-title span {
+    font-size: 3rem;
+    position: relative;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #00b3cb;
+}
+
+.content-center-title span::after {
+    content: "";
+    width: 1000%;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    border-bottom: 5px solid #00b3cb;
+}
+
+.quytac {
+    padding-top: 10px;
+}
+
+.content-center-left-bottom-top {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.content-center-left-bottom-bottom {
+    font-size: 1.3rem;
+}
+
+.img-class img,
+.sub-img {
+    width: 100%;
+}
+
+.sub-img img {
+    height: 50%;
+    padding: 5px 0;
+}
+
+
+/*  */
+
+.content-center-left-img img {
+    width: 100%;
+    margin: 30px 0;
+}
+
+.content-center-left-img {
+    font-size: 1.3rem;
+    line-height: 30px;
+}
+
+.learn-what {
+    display: flex;
+    padding: 20px 0;
+}
+
+.learn-what-left {
+    background-color: #FFF;
+    width: 50%;
+}
+
+.learn-what-right {
+    background-color: #eaeaea;
+    width: 50%;
+}
+
+.box-learn-what-content {
+    padding: 20px;
+}
+
+.box-learn-what-content div {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.box-learn-what-content p {
+    text-align: justify;
+    line-height: 20px;
+    font-size: 1.3rem;
+}
+
+
+/*  */
+
+.content-center-right {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.content-center-right-top a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.content-center-right-top a img {
+    width: 30px;
+    height: 30px;
+    margin: 0px 10px 10px 0px;
+}
+
+.content-center-right-top a:first-child {
+    background-color: #00b3cb;
+}
+
+.content-center-right-top a:last-child {
+    background-color: #11967f;
+    text-transform: uppercase;
+}
+
+.content-center-right-bottom-top {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.content-center-right-bottom img {
+    width: 50px;
+    height: 50px;
+}
+
+.aa {
+    padding: 10px 0;
+    display: flex;
+}

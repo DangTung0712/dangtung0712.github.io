@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fixwidth {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix {
+    clear: both;
+    overflow: hidden;
+}
+
+.footer {
+    padding: 20px 0;
+}
+
+.footer-left {
+    border-right: none;
+    height: 100%;
+}
+
+.footer-left div {
+    margin-top: 20px;
+}
+
+.footer-left div img {
+    margin-left: -35px;
+}
+
+.footer input,
+.footer select {
+    padding: 10px;
+    text-align: left;
+    width: 80%;
+    outline: 0;
+    border: none;
+    background-color: #efefef;
+}
+
+.footer nav ul {
+    list-style: none;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #000;
+    margin-left: -20px;
+    margin-top: 5px;
+    display: block;
+}
+
+.footer-content {
+    border-right: none;
+    height: 100%;
+}
+
+.footer-content-top span {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 3px solid #000;
+}
+
+.info div {
+    margin-top: 25px;
+}
+
+.footer-right div {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.backtop {
+    width: 50px;
+    height: 50px;
+    background: tomato;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+}
+
+.text-bottom {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.sub-footer {
+    padding: 0 50px;
+}
+
+@media(max-width: 575px) {}
+
+@media(min-width: 576px) and (max-width:1000px) {}
+
+@media(min-width: 1001px) {
+    .sub-footer {
+        padding: 0;
+    }
+    .footer-left,
+    .footer-content {
+        border-right: 1px solid #000;
+    }
+}
